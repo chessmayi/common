@@ -49,6 +49,10 @@ Use this file as the reusable base layer for future projects. Add project-specif
 ## Git And Backup
 
 - For durable projects, keep files under git.
+- When the user creates a new project, help create or connect a GitHub repository with the same title as the project unless the user says otherwise.
+- Prefer private repositories by default when the project contains personal notes, learning records, PDFs, transcripts, or unpublished work.
+- Use the common files in this repository as the starting point for new projects, then layer project-specific instructions on top.
+- The user may provide project-specific files by uploading them into the local workspace or by adding them directly to GitHub.
 - Commit meaningful project-state changes after the user approves or asks for backup.
 - Push to a private remote when the project contains personal learning records, private notes, copyrighted course materials, or other sensitive material.
 - Avoid committing transient logs, caches, and generated clutter unless they are part of the project record.

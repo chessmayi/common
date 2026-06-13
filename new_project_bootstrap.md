@@ -2,6 +2,20 @@
 
 Use this checklist when starting a new project.
 
+## 0. Create The GitHub Repository
+
+When the user creates a new project, help create or connect a GitHub repository with the same title as the project unless the user says otherwise.
+
+Default workflow:
+
+1. Use the project title as the repository name, normalized for GitHub when needed.
+2. Prefer a private repository by default, especially for learning notes, personal files, PDFs, transcripts, or unpublished work.
+3. Use the repository as the working directory for the project.
+4. Start from the common rules in this repository.
+5. Add project-specific instruction files later as the user provides them.
+
+The user may provide project-specific files either by uploading them into the local project workspace or by adding them directly to GitHub.
+
 ## 1. Create The Base Files
 
 Recommended files:
