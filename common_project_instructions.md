@@ -30,6 +30,7 @@ Use this file as the reusable base layer for future projects. Add project-specif
 
 - For algorithm and data-structure explanations, start from the mathematical framework before discussing implementation.
 - Use LaTeX for mathematical symbols, formulas, recurrences, state definitions, invariants, and complexity expressions.
+- Apply this style across projects and across newly created daily chats; do not rely on prior chat context to remember it.
 - First define the mathematical object being counted, optimized, represented, or transformed.
 - Then state the invariant, recurrence, graph relation, state meaning, or contribution formula.
 - After that, explain how the algorithm realizes the framework and map the framework to concrete code variables and lines.
