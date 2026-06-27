@@ -188,3 +188,49 @@ The goal is to make knowledge easier to retrieve in context. A concept is more u
 
 1. What fact changed, and why does the framework care?
 2. Which concept does the most explanatory work here?
+
+### 5. Explaining Algorithm Code From A Mathematical Framework
+
+**When this appears**
+
+- The user asks why algorithm code works or why a bug occurs.
+- The code implements DP, graph traversal, automata, data structures, counting, optimization, or another mathematical model.
+- The user can see the variables but has not yet named the object they represent.
+
+**Concepts usually used together**
+
+- Mathematical object.
+- State meaning.
+- Invariant or recurrence.
+- Contribution formula.
+- Code-variable mapping.
+- Transfer action.
+
+**Core question**
+
+- What mathematical object is this code trying to represent?
+
+**How to reason through it**
+
+1. Name the object being counted, optimized, represented, or transformed.
+2. Write the state meaning, invariant, recurrence, graph relation, or contribution formula.
+3. Identify the mismatch between the intended framework and the current code.
+4. Map each important code variable to the mathematical object.
+5. State the reusable solving action for a similar but not identical problem.
+
+**Common mistakes**
+
+- Explaining line-by-line before defining the state meaning.
+- Treating a data-structure implementation detail as the mathematical object itself.
+- Fixing the symptom without naming the invariant that was violated.
+
+**Useful sentence patterns**
+
+- "Mathematically, this variable represents X, not Y."
+- "The invariant is X; this line breaks it because Y."
+- "The reusable action is to first write the state/contribution meaning before modifying code."
+
+**Active-recall prompts**
+
+1. What is the mathematical object behind this piece of code?
+2. Which invariant or recurrence would make the code obviously correct?

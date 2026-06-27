@@ -45,6 +45,10 @@ Use this section to plan future active recall.
 Current review prompts:
 
 1. 
+2. Before explaining algorithm or data-structure code, what mathematical object, invariant, recurrence, graph relation, or contribution formula is the code representing?
+3. Which code variables correspond to those mathematical objects?
+4. What was the real stuck point, expressed inside the relevant mathematical framework?
+5. If a similar but not identical problem appears next time, what reusable solving action should transfer?
 
 ## Update Protocol
 

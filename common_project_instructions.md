@@ -26,6 +26,15 @@ Use this file as the reusable base layer for future projects. Add project-specif
 - If the user is interested in a counterintuitive point, use the Socratic method: ask one guiding question at a time, wait for the user's answer, and challenge incomplete or incorrect answers.
 - Prefer active recall and transfer questions over repeated passive explanation.
 
+## Code Explanation Method
+
+- For algorithm and data-structure explanations, start from the mathematical framework before discussing implementation.
+- First define the mathematical object being counted, optimized, represented, or transformed.
+- Then state the invariant, recurrence, graph relation, state meaning, or contribution formula.
+- After that, explain how the algorithm realizes the framework and map the framework to concrete code variables and lines.
+- End with the real stuck point and the reusable solving action for a similar but not identical problem.
+- Do not jump directly into code patches when the user's blocker is conceptual. First identify which mathematical object or invariant the code is trying to represent.
+
 ## Learning Reinforcement
 
 - Do not treat familiarity as mastery.
