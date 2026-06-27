@@ -213,7 +213,7 @@ The goal is to make knowledge easier to retrieve in context. A concept is more u
 **How to reason through it**
 
 1. Name the object being counted, optimized, represented, or transformed.
-2. Write the state meaning, invariant, recurrence, graph relation, or contribution formula.
+2. Write the state meaning, invariant, recurrence, graph relation, or contribution formula in LaTeX.
 3. Identify the mismatch between the intended framework and the current code.
 4. Map each important code variable to the mathematical object.
 5. State the reusable solving action for a similar but not identical problem.

@@ -29,6 +29,7 @@ Use this file as the reusable base layer for future projects. Add project-specif
 ## Code Explanation Method
 
 - For algorithm and data-structure explanations, start from the mathematical framework before discussing implementation.
+- Use LaTeX for mathematical symbols, formulas, recurrences, state definitions, invariants, and complexity expressions.
 - First define the mathematical object being counted, optimized, represented, or transformed.
 - Then state the invariant, recurrence, graph relation, state meaning, or contribution formula.
 - After that, explain how the algorithm realizes the framework and map the framework to concrete code variables and lines.
